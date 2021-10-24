@@ -17,13 +17,15 @@ The idea is to reduce the CSV data from all data entries to just the sampling st
 
 You would want to have some QA/QC if you want to immitate an expensive benchtop analyzer. You will see that there are several data filter functions at the top of the script for throwing out "fliers" or sudden unrealistic jumps in the data value that represent bad datapoints; removing samples that are taken when the device errors out and returns incomplete data; or bundling and smoothing the data into 1 30-row averages, etc.
 
+Use the shell script AQdataanalysis.sh to continually update the graph if you want this automated.
+
 __Interpreting PM2.5 data:__
 * https://publiclab.org/questions/samr/04-07-2019/how-to-interpret-pms5003-sensor-values
 * "In conclusion, I always use the "standard" readings for reporting but keep the "ambient conditions" for analysis. I haven't used these things in high altitudes so for all my deployments the standard and ambient are very similar."
 
 __Plots:__
-*Panel time series with indoor and outdoor comparison of temperature, humidity, MQ2 volatile gas normalized % variation, barometeric pressure in Pascals, PM10_std, PM2.5_std, raw indoor and outdoor particle concentrations of different sizes, then the ratio with a horizontal line for ratio of 1 to see when indoor or outdoor air is dirtier.
-*Scatter diagram concept, comparing indoor and outdoor air raw particle values.
+* Panel time series with indoor and outdoor comparison of temperature, humidity, MQ2 volatile gas normalized % variation, barometeric pressure in Pascals, PM10_std, PM2.5_std, raw indoor and outdoor particle concentrations of different sizes, then the ratio with a horizontal line for ratio of 1 to see when indoor or outdoor air is dirtier.
+* Scatter diagram concept, comparing indoor and outdoor air raw particle values.
 
 
 __Materials List:__
