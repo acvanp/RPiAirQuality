@@ -47,7 +47,7 @@ __Materials List:__
 * Breadboard
 * jumper wires
 * 220 ohm resistors
-* NPN transistor (mine came from a Freenove Kit, part says "S8050")
+* NPN transistor (S8050)
 * 3-6V aquarium pump (NW Air Pump5-6V DC from Amazon)
 * 3-6V three way valve (from Adafruit)
 * 3mm internal diameter tubing to connect valve, pump, and outdoor air source (my office window)
