@@ -47,6 +47,7 @@ __Materials List:__
 * Breadboard
 * jumper wires
 * 220 ohm resistors
+* NPN transistor (mine came from a Freenove Kit, part says "S8050")
 * 3-6V aquarium pump (NW Air Pump5-6V DC from Amazon)
 * 3-6V three way valve (from Adafruit)
 * 3mm internal diameter tubing to connect valve, pump, and outdoor air source (my office window)
@@ -59,3 +60,4 @@ __Materials List:__
 * plastic bag to place the gas, particle, and humidity sensors inside of
 * rubber band to connect bag to the pump
 * tape to close the end of the bag around the exiting electrical cables
+
