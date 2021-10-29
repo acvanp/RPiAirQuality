@@ -6,7 +6,7 @@ By using a three-way valve, air pump, and plastic bag around the air quality sen
 __See the diagram PDF for more details.__
 
 ## Operating Code
-### This code was collected from open resources, with either the MIT open software license or no license, to make a not-for-profit device. I combined the code together and inserted timing for the three-way valve, and binary columns for indoor/outdoor sample source, and conditioning/sampling sample state.
+This code was collected from open resources, with either the MIT open software license or no license, to make a not-for-profit device. I combined the code together and inserted timing for the three-way valve, and binary columns for indoor/outdoor sample source, and conditioning/sampling sample state.
 * PMS5003 sensor code: https://github.com/aproano2/pms5003py
 * BMP180 sensor code: https://github.com/m-rtijn/bmp180
 * DHT sensor code: https://github.com/Freenove/Freenove_RFID_Starter_Kit_for_Raspberry_Pi/tree/master/Code/Python_Code/21.1.1_DHT11
@@ -17,7 +17,7 @@ __Download code with:__
 
 
 __Run program:__
-* Get your hardware set up.
+* Set up the hardware.
 * Name output CSV filename in "AQ_class.py"
 
 `cd /directory`
