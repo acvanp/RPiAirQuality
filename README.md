@@ -12,6 +12,16 @@ __See the diagram PDF for more details.__
 * DHT sensor code: https://github.com/Freenove/Freenove_RFID_Starter_Kit_for_Raspberry_Pi/tree/master/Code/Python_Code/21.1.1_DHT11
 * MQ2 sensor code adapted from: http://osoyoo.com/driver/mq-5.py
 
+__Download code with:__
+`git clone git@github.com:acvanp/RPiAirQuality.git`
+
+
+__Run program:__
+* Get your hardware set up.
+* Name output file in "AQ_class.py"
+`cd /directory`
+`python air_quality.py`
+
 ### Analyze the data with the AQdataanalysis.py script. 
 The idea is to reduce the CSV data from all data entries to just the sampling state of sample (state 1), not conditioning samples (sample state of 0). This is then split into two dataframes, the indoor samples and the outdoor samples. In practice, it is mainly the MQ2 gas sensor that benefits from 5 minutes of throwaway conditioning before taking the data as actual sample data, whereas the PMS, DHT, and BMP only need a minute or less of conditioning (depending on your pump and your sample manifold). You can plot your data any way you want. The most difficult thing for me was the date-time values. The values of my date-times were created using dates.datestr2num() and the X-axis labels were created using the timestamp text with the second dropped (useless information). 
 

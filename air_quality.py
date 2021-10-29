@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 #from pms5003py import pms5003
-from Alex_AQ_Draft1 import pms5003
+from AQ_class import pms5003
 import logging.config
 import logging
 import os
