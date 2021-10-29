@@ -18,8 +18,10 @@ __Download code with:__
 
 __Run program:__
 * Get your hardware set up.
-* Name output file in "AQ_class.py"
+* Name output CSV filename in "AQ_class.py"
+
 `cd /directory`
+
 `python air_quality.py`
 
 ### Analyze the data with the AQdataanalysis.py script. 
