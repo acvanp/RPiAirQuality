@@ -13,14 +13,15 @@ This code was collected from open resources, with either the MIT open software l
 * MQ2 sensor code adapted from: http://osoyoo.com/driver/mq-5.py
 
 __Download code with:__
+
+`cd /directory`
+
 `git clone git@github.com:acvanp/RPiAirQuality.git`
 
 
 __Run program:__
 * Set up the hardware.
 * Name output CSV filename in "AQ_class.py"
-
-`cd /directory`
 
 `python air_quality.py`
 
